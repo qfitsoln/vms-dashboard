@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+MAINTAINER ravi ravi@vmstech.com
 RUN apt update
 RUN apt install tree
 WORKDIR /home/ubuntu
